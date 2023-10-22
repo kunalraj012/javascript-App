@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#headerTitle{
+  text-align: center;
+  margin: 20px;
+  color: rgb(39, 39, 113);
+}
+#headerBar{
+  width: 10%;
+  margin: 0px auto;
+  border-top: 5px solid rgb(109, 109, 24);
+}
+#allButtons{
+  text-align: center;
+  margin: 20px;
+}
+.categoryButton{
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: rgb(206, 206, 112);
+  border-radius: 10px;
+  border: 3px solid rgb(84, 84, 44);
+}
+.categoryButton:hover{
+  cursor: pointer;
+  background-color: aliceblue;
+  border: 3px solid blue;
+}
+
+#allDishes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.dish{
+  display: flex;
+  width: 45%;
+  margin-bottom: 50px;
+}
+.dishInner{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+.dish img{
+  width: 40%;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 3px solid yellow;
+}
+.dishPrice{
+  color: rgb(206, 206, 112);
+}
+.dishName{
+  text-transform: capitalize;
+}
